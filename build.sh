@@ -36,7 +36,7 @@ for filename in assets/server-files/.*; do
   fi
 done
 
-# Copy elastic beanstalk extensions and remove sample configurations.
+# Copy elastic beanstalk extensions.
 echo Copying .ebextensions...
 cp -r assets/.ebextensions build
 
