@@ -16,6 +16,8 @@ application to AWS Elastic Beanstalk.
 - From the root of this project type `eb init` in the command line to reference your environment.
 - Add the following to `.elasticbeanstalk/config.yml` after the `branch-defaults` section:  
 
+Add these lines:
+
     deploy:
       artifact: artifact.zip
 
